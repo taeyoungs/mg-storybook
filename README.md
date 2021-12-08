@@ -1,46 +1,62 @@
-# Getting Started with Create React App
+# MG Storybook for FrontEnd Developer and Designer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Setup
 
-## Available Scripts
+- CRA
+- Storybook
+- Yarn (3.0.2)
+- TypeScript (4.4.3)
 
-In the project directory, you can run:
+## Storybook
 
-### `yarn start`
+```shell
+yarn storybook
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Git Commit Convention
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Type
 
-### `yarn test`
+| #   | Type    | Description                                            |
+| --- | ------- | ------------------------------------------------------ |
+| 1   | init    | 프로젝트 초기화                                        |
+| 2   | add     | 기능 추가                                              |
+| 3   | fix     | 버그 수정                                              |
+| 4   | mod     | 기능 수정                                              |
+| 5   | docs    | 문서 관련 추가 및 수정                                 |
+| 6   | test    | 테스트 추가, 테스트 리팩토링 (프로덕션 코드 변경 제외) |
+| #   | -       | -                                                      |
+| 7   | mv      | 리소스 이동                                            |
+| 8   | rm      | 리소스 제거                                            |
+| #   | -       | -                                                      |
+| 9   | rename  | 리소스 재명명                                          |
+| 10  | design  | CSS 등 사용자 UI 디자인 변경                           |
+| 11  | style   | 코드 포맷 변경, 코드 스타일 가이드 적용                |
+| 12  | refact  | 프로덕션 코드 리팩토링                                 |
+| 13  | comment | 필요한 주석 추가 및 수정                               |
+| #   | -       | -                                                      |
+| 14  | merge   | 코드 병합                                              |
+| 15  | chore   | 기타 (빌드 Task, 의존성, 설정파일 등)                  |
+| 16  | revert  | 코드 되돌리기                                          |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Message
 
-### `yarn build`
+```shell
+========= Example ==========
+add: 회원 삭제 기능 구현
+> 빈칸
+message
+> 빈칸
+footer (선택사항 - 모든 Commit에 존재할 필요는 없음)
+Resolves : #123
+See Also : #456, #789
+============================
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+========= Issue Closed Keywords =========
+close, closes, closed : 일반 개발 이슈
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+fix, fixes, fixed : 버그 픽스나 핫 픽스 이슈
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+resolve, resolves, resolved : 문의나 요청 사항에 대응한 이슈
+=========================================
+```
