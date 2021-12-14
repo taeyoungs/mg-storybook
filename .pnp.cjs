@@ -52,6 +52,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", "npm:17.0.11"],
             ["@typescript-eslint/eslint-plugin", "virtual:4f0b9b06e1576c08bbc8ab9de42af5988d60c1f881112fd9d1253daec0c68123a733e30d3d47f40f681ad6ea6e33d4d08038360bf5866c64333d990c411febdb#npm:5.6.0"],
             ["@typescript-eslint/parser", "virtual:4f0b9b06e1576c08bbc8ab9de42af5988d60c1f881112fd9d1253daec0c68123a733e30d3d47f40f681ad6ea6e33d4d08038360bf5866c64333d990c411febdb#npm:5.6.0"],
+            ["chromatic", "npm:6.2.0"],
             ["eslint", "npm:8.4.1"],
             ["eslint-config-prettier", "virtual:4f0b9b06e1576c08bbc8ab9de42af5988d60c1f881112fd9d1253daec0c68123a733e30d3d47f40f681ad6ea6e33d4d08038360bf5866c64333d990c411febdb#npm:8.3.0"],
             ["eslint-plugin-prettier", "virtual:4f0b9b06e1576c08bbc8ab9de42af5988d60c1f881112fd9d1253daec0c68123a733e30d3d47f40f681ad6ea6e33d4d08038360bf5866c64333d990c411febdb#npm:4.0.0"],
@@ -13645,6 +13646,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["chromatic", [
+        ["npm:6.2.0", {
+          "packageLocation": "./.yarn/cache/chromatic-npm-6.2.0-3841e44af7-d0726a5115.zip/node_modules/chromatic/",
+          "packageDependencies": [
+            ["chromatic", "npm:6.2.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["chrome-trace-event", [
         ["npm:1.0.2", {
           "packageLocation": "./.yarn/cache/chrome-trace-event-npm-1.0.2-c73a69cbd7-a104606fd0.zip/node_modules/chrome-trace-event/",
@@ -21608,6 +21618,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", "npm:17.0.11"],
             ["@typescript-eslint/eslint-plugin", "virtual:4f0b9b06e1576c08bbc8ab9de42af5988d60c1f881112fd9d1253daec0c68123a733e30d3d47f40f681ad6ea6e33d4d08038360bf5866c64333d990c411febdb#npm:5.6.0"],
             ["@typescript-eslint/parser", "virtual:4f0b9b06e1576c08bbc8ab9de42af5988d60c1f881112fd9d1253daec0c68123a733e30d3d47f40f681ad6ea6e33d4d08038360bf5866c64333d990c411febdb#npm:5.6.0"],
+            ["chromatic", "npm:6.2.0"],
             ["eslint", "npm:8.4.1"],
             ["eslint-config-prettier", "virtual:4f0b9b06e1576c08bbc8ab9de42af5988d60c1f881112fd9d1253daec0c68123a733e30d3d47f40f681ad6ea6e33d4d08038360bf5866c64333d990c411febdb#npm:8.3.0"],
             ["eslint-plugin-prettier", "virtual:4f0b9b06e1576c08bbc8ab9de42af5988d60c1f881112fd9d1253daec0c68123a733e30d3d47f40f681ad6ea6e33d4d08038360bf5866c64333d990c411febdb#npm:4.0.0"],
