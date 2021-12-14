@@ -1,13 +1,13 @@
+// eslint-disable-next-line no-undef
 module.exports = {
   env: {
     es2021: true,
   },
   extends: [
     'eslint:recommended',
-    'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
+    'plugin:react/recommended',
     'plugin:react-hooks/recommended',
-    'eslint-config-prettier',
     'plugin:prettier/recommended',
     'plugin:storybook/recommended',
   ],
@@ -29,6 +29,7 @@ module.exports = {
       },
     ],
     '@typescript-eslint/no-var-requires': 0,
+    'react/no-unescaped-entities': 'off',
   },
-  plugins: ['react', '@typescript-eslint'],
+  plugins: ['react', '@typescript-eslint', 'prettier'],
 };
