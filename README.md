@@ -13,6 +13,10 @@
 yarn storybook
 ```
 
+## Page
+
+[Link](https://61b83657fbcf11003a57fbc8-owepzunuth.chromatic.com/?path=/story/description-typography--page) (using Chromatic)
+
 ## Git Commit Convention
 
 ### Type
